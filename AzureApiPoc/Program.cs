@@ -11,7 +11,7 @@ var host = new HostBuilder()
     {
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
-        services.AddSingleton<IQueueClient>(client => new QueueClient(connectionString: "Endpoint=sb://zz-sb-bob-cwpsa-api.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=3OUtBIwxt3O012uyXlhNoj2n/OjnticYV+ASbO7Dr1w=",
+        services.AddSingleton<IQueueClient>(client => new QueueClient(connectionString: "Endpoint=sb://zz-sb-bob-cwpsa-api.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=secret_key=",
                                                                       entityPath: "zz-sbq-bob-cwpsa-api"));
         services.AddSingleton<IMessagePublisher, MessagePublisher>();
     })
