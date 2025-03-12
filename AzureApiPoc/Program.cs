@@ -10,10 +10,8 @@ var host = new HostBuilder()
     .ConfigureServices(services =>
     {
         services.AddApplicationInsightsTelemetryWorkerService();
-        services.ConfigureFunctionsApplicationInsights();
-
-        services.AddSingleton<IMessagePublisher, MessagePublisher>();
     })
     .Build();
 
 host.Run();
+
