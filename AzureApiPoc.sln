@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureApiPoc", "AzureApiPoc\AzureApiPoc.csproj", "{A2E53803-7C42-484D-B1DD-41A4239F4EED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureApiPoc", "AzureApiPoc\AzureApiPoc.csproj", "{A2E53803-7C42-484D-B1DD-41A4239F4EED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Options", "Options\Options.csproj", "{C90B89FC-CAF0-4649-A90B-772A41F74888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Options", "Options\Options.csproj", "{C90B89FC-CAF0-4649-A90B-772A41F74888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto", "Dto\Dto.csproj", "{AAA503E0-8FFF-4D4D-A177-3952CD4913BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dto", "Dto\Dto.csproj", "{AAA503E0-8FFF-4D4D-A177-3952CD4913BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,7 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", 
 		..\..\..\..\..\Data\ZenzeroDDS\Zenzero Spikes\Zenzero.CodeJam.Deployment\README.md = ..\..\..\..\..\Data\ZenzeroDDS\Zenzero Spikes\Zenzero.CodeJam.Deployment\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions", "Abstractions\Abstractions.csproj", "{F7875BB3-2131-4D71-B7D1-75FE96D212BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstractions", "Abstractions\Abstractions.csproj", "{F7875BB3-2131-4D71-B7D1-75FE96D212BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{F4A1B88F-064E-4F0E-A4B4-D2D6B5ED5B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "Configuration\Configuration.csproj", "{4AC24AB2-5082-42CF-8CB4-4E734950622F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapping", "Mapping\Mapping.csproj", "{672FA974-B58B-4D0F-8781-E30962BA7A4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +47,18 @@ Global
 		{F7875BB3-2131-4D71-B7D1-75FE96D212BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7875BB3-2131-4D71-B7D1-75FE96D212BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7875BB3-2131-4D71-B7D1-75FE96D212BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A1B88F-064E-4F0E-A4B4-D2D6B5ED5B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A1B88F-064E-4F0E-A4B4-D2D6B5ED5B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A1B88F-064E-4F0E-A4B4-D2D6B5ED5B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A1B88F-064E-4F0E-A4B4-D2D6B5ED5B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC24AB2-5082-42CF-8CB4-4E734950622F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC24AB2-5082-42CF-8CB4-4E734950622F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC24AB2-5082-42CF-8CB4-4E734950622F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC24AB2-5082-42CF-8CB4-4E734950622F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672FA974-B58B-4D0F-8781-E30962BA7A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672FA974-B58B-4D0F-8781-E30962BA7A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672FA974-B58B-4D0F-8781-E30962BA7A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672FA974-B58B-4D0F-8781-E30962BA7A4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
